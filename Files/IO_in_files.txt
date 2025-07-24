@@ -1,0 +1,26 @@
+Files IO
+
+//go through example code for each and every type
+Byte Stream
+  |->InputStream
+  |    |->FileInputSream(read)
+  |    |->BufferedInputStream(read)
+  |    |->ObjectInputStream
+  |
+  |->OutputStream
+ 	      |->FileOutPutStream(write)
+        |->BufferedOutputStream(write)
+        |->ObjectOutputStream(writeObject)
+
+
+char Stream
+  |->Reader
+  |    |->FileReader(read, readLine)
+  |    |->BufferedIReader(read, readLine)
+  |
+  |->Writer
+ 	|->FileWriter
+        |->BufferedWriter
+
+InputStreamReader
+OutputStreamWriter
