@@ -1,4 +1,4 @@
-package Collections;
+package Collections.Generics;
 class Box<T>{
     private T item;
     public Box(T item) {

@@ -13,7 +13,7 @@ public class ImmutableExample {
         this.age = age;
         this.hobbies = new ArrayList<>(hobbies); // deep copy to ensure immutability
     }
-
+    ArrayList<Integer> a=new ArrayList<>();
     public String getName() {
         return name;
     }
