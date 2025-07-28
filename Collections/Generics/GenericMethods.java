@@ -6,6 +6,7 @@ public class GenericMethods {
             System.out.print(element + " ");
         }
         System.out.println();
+        
     }
     public static void main(String[] args) {
         String[] stringArray = {"Hello", "Generics", "in", "Java"};
